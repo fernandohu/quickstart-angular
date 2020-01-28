@@ -43,13 +43,13 @@ The files were generated with `ng create`. If you wish, you can remove everythin
 You can execute `ng` or `npm` commands by calling the `angular` service:
 
 ```
-docker-compose run -rm angular npm XXX
+docker-compose run --rm angular npm XXX
 ```
 
 or
 
 ```
-docker-compose run -rm angular ng XXX
+docker-compose run --rm angular ng XXX
 ```
 
 The commands will be always executed in the `app` folder.
